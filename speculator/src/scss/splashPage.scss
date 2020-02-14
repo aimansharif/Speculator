@@ -1,0 +1,247 @@
+@import "./globalVariables";
+
+.main__container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(#d4d3dd 0%, #b9b5ff 70%);
+  overflow-y: scroll;
+  display: block;
+}
+.splash__container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: scroll;
+  display: block;
+}
+
+// Intro
+
+.region__intro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.region__intro__text-container {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.region__intro__heading {
+  background: -webkit-linear-gradient(#bd846f, #5200ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.region__intro__description {
+  color: $nightshade-purple;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.region__intro__image {
+  position: absolute;
+  height: 80%;
+  right: 10%;
+  width: auto;
+  bottom: 0;
+}
+
+// About
+.region__about {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.region__about__heading {
+  position: absolute;
+  color: $violet;
+  top: 5%;
+  left: 10%;
+}
+
+.region__about__separator-left {
+  background-color: $violet;
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  left: 0;
+  top: 15%;
+}
+
+.region__about__separator-right {
+  background-color: $violet;
+  position: absolute;
+  height: 5%;
+  width: 60%;
+  right: 0;
+  top: 15%;
+}
+.region__about__image {
+  position: relative;
+  display: inline-block;
+  left: 0 !important;
+  top: 30%;
+  width: auto;
+  height: 100%;
+}
+
+.region__about__orange-hijab {
+  position: absolute;
+  top: -38%;
+  right: 5%;
+}
+
+.region__about__purple-hijab {
+  position: absolute;
+  top: -36%;
+  right: 25%;
+}
+
+// Getting Started
+.region__getting-started {
+  position: relative;
+  display: block;
+  top: 25%;
+  width: 100%;
+  height: 100%;
+}
+
+.region__getting-started__heading {
+  position: absolute;
+  color: $persimmon-orange;
+  top: 5%;
+  right: 10%;
+}
+
+.region__getting-started__separator-left {
+  background-color: $persimmon-orange;
+  position: absolute;
+  height: 5%;
+  width: 25%;
+  left: 0;
+  top: 15%;
+}
+
+.region__getting-started__separator-right {
+  background-color: $persimmon-orange;
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  right: 0;
+  top: 15%;
+}
+
+.region__getting-started__card-orange {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  elevation: below;
+  background: $wallflower-beige;
+  border-color: black;
+  border-width: 4px;
+  width: 50%;
+  height: auto;
+  top: 80%;
+  right: 10%;
+}
+
+.region__getting-started__card-orange__text {
+  display: inline-flex;
+  margin: 32px 64px;
+  color: $persimmon-orange;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.region__getting-started__card-purple {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  elevation: below;
+  background: $wallflower-beige;
+  border-color: black;
+  border-width: 4px;
+  width: 50%;
+  height: auto;
+  bottom: 30%;
+  right: 10%;
+}
+
+.region__getting-started__card-purple__text {
+  display: inline-flex;
+  margin: 32px 64px;
+  color: $nightshade-purple;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.region__getting-started__card {
+  position: relative;
+  display: inline-block;
+  border-radius: 15px;
+  background: $wallflower-beige;
+  width: 80%;
+  height: 70%;
+  margin-top: 18%;
+  margin-left: 5%;
+  padding: 64px;
+}
+
+.region__getting-started__card-heading {
+  display: flex;
+  color: $persimmon-orange;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.region__getting-started__card-description {
+  color: $persimmon-orange;
+  display: flex;
+  width: 40%;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.region__getting-started__card-button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 64px;
+  color: $wallflower-beige;
+  text-decoration: none;
+  -webkit-text-stroke: 1px $persimmon-orange;
+}
+
+.region__getting-started__card-button:hover {
+  color: $persimmon-orange;
+}
+
+.region__getting-started__card-image {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  overflow: hidden;
+}
+
+// Footer
+.footer__text {
+  display: inline-block;
+  position: relative;
+  color: $persimmon-orange;
+  bottom: 0%;
+  padding: 16px;
+  margin: 5%;
+  left: 30%;
+}

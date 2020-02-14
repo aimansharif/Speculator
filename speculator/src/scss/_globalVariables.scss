@@ -1,0 +1,76 @@
+// It is a common practise to use "_" at the beginning of a file name to denote that it will be expressly used for the purpose of variable storage
+
+// Spacing
+$example-spacing-variable: 16px;
+
+// Colors
+$persimmon-orange: #cd5e29;
+$light-brown: #c5a78f;
+$wallflower-beige: #FFF4EF;
+$dark-brown: #bd846f;
+$teal: #2588a0;
+$blue: #4410f2;
+$light-purple: #c48cdf;
+$nightshade-purple: #614385;
+$violet: #7151BC;
+$tan: #FFF4EF;
+
+// Typography
+.h1 {
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+}
+
+.h2 {
+  // For large card titles
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 131px;
+}
+
+.h3 {
+  // For nav bar buttons and outlined text buttons
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+}
+
+.h3-bold {
+  // For nav bar buttons and outlined text buttons
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 65px;
+}
+
+.body {
+  // For large card
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+}
+
+.body-small {
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+// Other
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
